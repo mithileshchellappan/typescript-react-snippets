@@ -43,5 +43,14 @@
       "style={{$0}}"
     ],
 	"description": "Imports Seperate React Native Style Sheet"
+  },
+  "OnPress Linking": {
+    "prefix": "onpl",
+    "body": ["onPress={() => {$0}}"],
+    "description": "Inline OnPress"
+  },
+  "OnPress OutLink":{
+    "prefix": "onoutpl",
+    "body":["onPress={on$0}"],
   }
 }
