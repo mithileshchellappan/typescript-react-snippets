@@ -1,0 +1,47 @@
+{
+  "Function Component": {
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react'",
+      "import { StyleSheet,View } from 'react-native'",
+      "import styles from './styles",
+      "",
+      "const $1 = () => {",
+      "    return (",
+      "        <View style={styles.container}>",
+      "$0",
+      "        </View>",
+      "    )",
+      "}",
+      "const styles = StyleSheet.create({",
+      "    container:{",
+      "",
+      "    }",
+      "})",
+      "export default  $1"
+    ],
+    "description":"Creates a new React native Functional Component with inbuilt StyleSheet"
+  },
+  "Import Style Sheet": {
+    "prefix": "stylsht",
+    "body": [
+      "import { StyleSheet } from 'react-native'",
+      "",
+      "const styles = StyleSheet.create({",
+      "     container:{",
+      "     $0",
+      "     }",
+      "})",
+      "",
+      "export default styles"
+    ],
+	"description": "Imports React Native Style Sheet"
+  },
+  "Inline Style": {
+    "prefix": "inls",
+    "body": [
+      "style={{$0}}"
+    ],
+	"description": "Imports Seperate React Native Style Sheet"
+  }
+}
