@@ -52,5 +52,9 @@
   "OnPress OutLink":{
     "prefix": "onoutpl",
     "body":["onPress={on$0}"],
+  },
+  "Styled component init": {
+    "prefix": "styldcomp",
+    "body": ["const $2 = styled.$1`", "$0", "`"]
   }
 }
